@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo{
+padding: 10px;
+width: 40%;
+}
+  #button{
+    background: hsl(0, 80%, 86%);
+    width: 19%;
+    height: 14%;
+  position: absolute;
+  bottom: 8%;
+  right: 15%; 
+  border-radius: 20px;
+  border-top: 2px solid hsl(0, 36%, 70%) ;
+  border-bottom: 2px solid hsl(0, 36%, 70%) ;
+  border-left: 2px solid hsl(0, 36%, 70%) ;
+  border-right: 2px solid hsl(0, 36%, 70%) ;
+  box-shadow:  0px 0px 6px 5px    hsl(0, 36%, 70%);
+}
+@media screen and (min-width:1280px){
+    #button{
+      width: 50px;
+      height: 45px; 
+      margin-right: 70px;
+      bottom: 18px;
+  
+   
+    }input:focus{
+     outline:none
+    }
+    
+
+}
+
+
+
+.cont{
+    background-image: url("img/hero-mobile.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+   
+}
+ span{
+    
+    text-transform: uppercase;
+    font-size: 25px;
+    color:hsl(0, 36%, 70%);
+  
+
+   
+}
+
+.centro{
+    text-align: center;
+    padding: 20px;
+    position: relative;
+
+    
+}
+
+#pa {
+    text-transform: uppercase;
+    color:hsl(0, 6%, 24%);
+    font-size: 30px;
+    font-weight: 600;
+}
+.parrafo  ,p{
+    color:hsl(0, 36%, 70%);
+    text-align: center;
+    font-size: 14px;
+    padding: 4px;
+   
+
+}
+ #ema{
+    width: 65%;
+    border-top: 2px solid hsl(0, 36%, 70%) ;
+    border-bottom: 2px solid hsl(0, 36%, 70%) ;
+    border-left: 2px solid hsl(0, 36%, 70%) ;
+    border-right: 2px solid hsl(0, 36%, 70%) ;
+   border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 25px;
+    background-color: hsl(0, 100%, 98%);
+}
+
+
+#ema::placeholder{
+    color:hsl(0, 36%, 70%) ;
+}
+ .centro ,#ema{
+    margin-right: 20px;
+}
+
+@media screen and (min-width:1280px){
+    .paquete{
+   width: 100%;
+   background-image: url("img/bg-pattern-desktop.svg");
+   margin: 0;
+   padding: 0;
+   min-height: 100vh;
+   background-color: hsl(0, 100%, 98%);
+   
+  
+  
+   
+    }
+}
+
+
+@media screen and (min-width:1280px){
+    .cont,.ix{
+        
+      background-image: url("img/hero-desktop.jpg");
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 100vh;
+      
+     
+        
+    }#ema{
+        width: 50%;
+        border-radius: 50px;
+        
+    }#logo{
+        width: 35%;
+    }#button{
+        border: none;
+    }
+    
+ }
+
+@media screen and (min-width:1280px){
+    .container{
+
+display: flex;
+flex-direction: row-reverse;
+box-shadow: 0px 0px 12px 10px #DCDCDC;
+margin-left: 200px;
+
+
+
+
+    }
+    #pa{
+        font-size: 50px;
+        color:hsl(0, 6%, 24%);
+    }.parrafo {
+        color:hsl(0, 36%, 70%);
+        text-align: center;
+        font-size: 30px;
+        padding: 25px;
+
+} span{
+    
+    text-transform: uppercase;
+    font-size: 50px;
+    color:hsl(0, 36%, 70%);
+  
+
+   
+}#button:hover{
+   background-color: hsl(0, 6%, 24%)
+}
+   
+}
+
+
+
+
